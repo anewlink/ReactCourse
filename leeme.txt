@@ -1,0 +1,21 @@
+Estructura de carpetas
+w1/ semana 1
+w1/dev1 codigo de referencia de la semana 1
+w1/hw1 tarea de la semana 1
+
+npx helper
+
+https://reactjs.org/
+
+Create a React app
+npx create-react-app course
+
+---
+Follow https://reactjs.org/tutorial/tutorial.html#setup-for-the-tutorial
+npm install -g yarn
+yarn install -g react
+npx create-react-app my-react-app
+
+yarn start
+yarn test
+yarn build
