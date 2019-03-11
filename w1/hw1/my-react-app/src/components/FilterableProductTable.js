@@ -11,11 +11,11 @@ class FilterableProductTable extends Component {
           <div>
             <h4>PRODUCT SEARCH APP</h4>
           </div>
-          {<SearchBar />}
+          <SearchBar />
           <br />
-          {<ProductTable />}
-          {<AddProductButton/>}
-          {<AddProductForm/>}
+          <ProductTable />
+          <AddProductButton/>
+          <AddProductForm/>
         </div>
       )
     }
