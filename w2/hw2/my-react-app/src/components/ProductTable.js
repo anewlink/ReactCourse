@@ -37,7 +37,13 @@ const groupByCategory = products => products.reduce((result, product) => (
  const renderProductsRows = props => {
   const rows = []
   const groupedProducts = groupByCategory(props.products)
+<<<<<<< HEAD
   const categories = Object.keys(groupedProducts)
+=======
+  console.log('groupedProducts', groupedProducts);
+  const categories = Object.keys(groupedProducts)
+  console.log('categories', categories);
+>>>>>>> 8158cf463302abca3298f219f6b1fa6e8590ddde
   categories.forEach(category => {
     addCategoryName(category, rows)
     addProductsToTable(groupedProducts[category], props, rows)

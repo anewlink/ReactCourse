@@ -44,5 +44,4 @@ SearchForm.propTypes = {
   stockOnlyValueChanged: PropTypes.func.isRequired
 }
 
-
 export default SearchForm
